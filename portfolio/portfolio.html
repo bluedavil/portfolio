@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASAD's personal cv</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        * {
+            color: white;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(./img/space\ img.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center center;
+            background-attachment: fixed;
+            background-color: rgba(0, 0, 0, 0.438);
+
+        }
+
+        header {
+            padding: 20px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+            font-family: cursive;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #6c63ff;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #F97300;
+            border-bottom: #F97300 solid 2px;
+        }
+
+        .home {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .container {
+            max-width: 600px;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        .heading {
+            font-family: cursive;
+        }
+
+        .role {
+            font-size: 24px;
+            color: #6c63ff;
+            margin-bottom: 20px;
+        }
+
+        .contact-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #6c63ff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .contact-button:hover {
+            background-color: #4742a5;
+        }
+
+        .profile-pic img {
+            width: 300px;
+            border-radius: 50%;
+        }
+
+        #artext {
+            background: linear-gradient(to left, #910A67, #720455, #3C0753, #030637, #6c63ff);
+            background-clip: text;
+            display: inline;
+            color: transparent;
+            animation: animated 5s linear infinite;
+            font-family: cursive;
+        }
+
+        @keyframes animated {
+            to {
+                background-position-x: 161px;
+            }
+        }
+
+        .container {
+            margin-left: 60px;
+        }
+
+        .Social {
+            margin-left: 100px;
+        }
+
+        .social-box {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .social-link {
+            margin: 10px;
+        }
+
+        .social-icon {
+            font-size: 20px;
+            color: #6c63ff;
+            background-color: #32012F;
+            height: 25px;
+            width: 25px;
+            text-align: center;
+            border-radius: 50%;
+            padding: 10px;
+            padding-top: 10px;
+        }
+
+        .social-icon:hover {
+            color: white;
+            background-color: #910A67;
+        }
+
+        .profile {
+            flex-direction: column;
+            align-items: center;
+            border: 7px double transparent;
+            background: linear-gradient(to left, red, pink, black, pink, blue);
+            background-clip: border-box;
+            display: inline;
+            animation: animated 2s linear infinite;
+        }
+
+        @media screen and (max-width: 768px) {
+           
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container2">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#My-Projects">My-Projects</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="home" class="home">
+            <div class="container">
+                <h1 class="heading">Hello, It's <h1 id="artext">ASAD</h1>
+                </h1>
+                <p class="role">Frontend Developer</p>
+                <p>High level experience in web design and development knowledge, producing quality work.</p>
+                <a href="#contact" class="contact-button">Contact Me</a>
+            </div>
+            <div class="profile-pic">
+                <img src="./img/portfolio img.jpg" alt="Alexa's Profile Picture" class="profile">
+            </div>
+        </section>
+        <div class="footer-box social-box">
+            <div class="Social">
+                <a href="#" class="social-link">
+                    <i class="fa-brands fa-instagram social-icon"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fa-brands fa-x-twitter social-icon"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fa-brands fa-facebook-f social-icon"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
